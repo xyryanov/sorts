@@ -1,3 +1,3 @@
 module 00.id.lv/sorts
 
-go 1.17
+go 1.18
