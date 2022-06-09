@@ -20,7 +20,7 @@ func randArray() []int {
 	rand.Seed(time.Now().UnixNano())
 	var arr []int
 
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 1000; i++ {
 		n := rand.Intn(1000)
 		arr = append(arr, n)
 	}
